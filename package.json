@@ -1,0 +1,45 @@
+{
+  "name": "angularjs-webpack-karma",
+  "version": "1.0.0",
+  "description": "test unit testing on es6 angularjs application with karma",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "karma start karma.conf.js",
+    "build": "webpack",
+    "serve": "webpack-dev-server --hot --watch --progress --colors"
+  },
+  "author": "damien suhard <ptitdam2001@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.7.7",
+    "angular-animate": "^1.7.7",
+    "angular-aria": "^1.7.7",
+    "angular-material": "^1.1.13",
+    "angular-sanitize": "^1.7.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "angular-mocks": "^1.7.7",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-angularjs-annotate": "^0.10.0",
+    "css-loader": "^2.1.0",
+    "eslint": "^5.14.1",
+    "html-webpack-plugin": "^3.2.0",
+    "jasmine-core": "^3.3.0",
+    "karma": "^4.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage": "^1.1.2",
+    "karma-jasmine": "^2.0.1",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^3.0.5",
+    "node-sass": "^4.11.0",
+    "raw-loader": "^1.0.0",
+    "sass": "^1.17.2",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
