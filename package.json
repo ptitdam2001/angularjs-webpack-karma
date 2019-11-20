@@ -11,7 +11,7 @@
   "author": "damien suhard <ptitdam2001@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "angular": "^1.7.7",
+    "angular": "^1.7.9",
     "angular-animate": "^1.7.7",
     "angular-aria": "^1.7.7",
     "angular-material": "^1.1.13",
